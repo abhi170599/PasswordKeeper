@@ -5,6 +5,11 @@
 **Environment**
     - Python 3.7.6
     - Flask
+
+**Running Procedure**
+    - Create a database with 'Database/PasswordKeeper.sql'
+    - pip install -r requirements.txt
+    - python main.py    
    
 **Functionalities** 
 
