@@ -7,9 +7,9 @@
     - Flask
 
 **Running Procedure**
-    - Create a database with 'Database/PasswordKeeper.sql'
-    - pip install -r requirements.txt
-    - python main.py    
+ - Create Database with PasswordKeeper.sql
+ - pip install -r requirements.txt
+ - python main.py    
    
 **Functionalities** 
 
