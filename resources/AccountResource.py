@@ -14,7 +14,7 @@ class AccountListResource(Resource):
 
             accounts = Account.getByUserId(args["user"])
             if accounts and len(accounts)>0:
-               """ encrypt the passwords """ 
+               """ decrypt the passwords """ 
                for account in accounts:
                    account["password"]=SS.decrypt(account["password"])
                return accounts
