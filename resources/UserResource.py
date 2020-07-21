@@ -26,7 +26,7 @@ class UserSignInResource(Resource):
             print(e)
             return {"status":"failed","msg":"Server Error"},500
             
-
+""" SignUp Resource """
 class UserSignUpResource(Resource):
 
     def post(self):

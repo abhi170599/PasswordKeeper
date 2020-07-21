@@ -1,0 +1,35 @@
+REQUEST 1
+
+    http://127.0.0.1:5000/app/user/auth
+    
+    body = {
+        "username":"abhi170599", 
+        "password":"password"
+
+    }
+
+    RESPONSE
+
+    {
+    "status": "success",
+    "userId": 1
+    }
+
+REQUEST 2
+    
+     http://127.0.0.1:5000/app/user/auth
+    
+    body = {
+        "username":"abhi170599", 
+        "password":"abhi"
+
+    }
+
+    RESPONSE
+    
+    {
+    "status": "failed",
+    "msg": "Incorrect Email or Password"
+    }
+
+    
